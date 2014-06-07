@@ -111,6 +111,12 @@
     <Compile Include="BlankPage1.xaml.cs">
       <DependentUpon>BlankPage1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="second_page.xaml.cs">
+      <DependentUpon>second_page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -124,6 +130,8 @@
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\bg.jpg" />
+    <Content Include="Assets\chosen_slide.jpg" />
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
@@ -135,6 +143,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="BlankPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="second_page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
